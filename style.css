@@ -1,92 +1,55 @@
-.screen{
-    height: 100vh;
-    max-width: 100%;
-    margin: 0px;
-    background-color: white;
+
+body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-direction: row;
 }
-
-.girl_pic{
-    height: calc(100vh-10px);
-    max-width: 45%;
-    background-color: bisque;
-    background-size: 100%;
-    margin: 5px;
-
-}
-
 .image{
-    height: 100%;
-    max-width: 100%;
-}
-
-.login{
-    height: calc(100vh-10px);
-    width:65%;
-    background-color: darkgrey;
-    background-image: linear-gradient(gray,white);
-    margin-top:2vh ;
-    margin-bottom: 5vh;
-    margin-left: 4vh;
-    margin-right: 2vh;
-    border-radius:2vh
+    height: 97.3vh;
+    width: 48vw;
     
 }
-.form{
+
+.Form{
+    background-image: linear-gradient(#1a191956, #a3999900);
+    box-shadow: 0px 4px #00000029;
+    height: 75vh;
+    width: 40vw;
+    margin-left: 2vw;
+    margin-top: 7.5vh;
     display: flex;
     flex-direction: column;
-}
-.c1
-{  
-   height: 8vh;
-   max-width: 80vh;
-   min-width: 65vh;
-   margin: 0.5vh;
-   margin-left: 2vh;
-   margin-right: 2vh;
-   margin-top: 8vh;
-   border-radius: 2vh ;
-   align-self: center;
-   box-shadow: 0px 2px 0px 0px gray;
-   border: 0vh;
-   
-}
-.c2{
-    align-self: center;
-    margin-top: 8vh;
-    border-radius: 2vh ;
-    height: 7vh;
-    max-width: 80vh;
-    min-width: 65vh;
-    background-color: black;
-    border-color: white;
-    color: white;
+    border-radius: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
-@font-face {
-    font-family: roboto-black;
-    src: url(Roboto-Black.ttf);
+.header{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    font-size: 48px;
+    margin: 0px;
 }
-@font-face {
-    font-family: roboto-light;
-    src: url(roboto-light.ttf);
+.sub-head{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+      font-size: 32px
 }
-h1
-{
-     font-family: roboto-black;
-     font-size: xx-large;
-     margin-top: 8vh;
-     margin-left: 10vh;
-     align-self: center;
-     color:white;
-
-}
-h4{
-    font-family:roboto-light;
-    margin-left: 10vh;
-    margin-bottom: 5vh;
-    align-self: center;
-    color:white;
-}
-
